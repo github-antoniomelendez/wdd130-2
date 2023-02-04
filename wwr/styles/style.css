@@ -6,50 +6,41 @@ nav a {
     text-align: center;
     color: steelblue;
     text-decoration: none;
- }   
- nav a:hover {
+    padding: 35px;
+}   
+nav a:hover {
     color: steelblue;
- }
- .home-title {
+}
+.home-title {
     color: steelblue;
- }
- h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h4 {
     color: steelblue;
- }
- .book {
-    color: steelblue;
-    text-decoration: none;
- }
- .book:hover {
+}
+.book:hover {
     color: black;
- }
- .join {
-    color: steelblue;
-    text-decoration: none;
- }
- .join:hover {
+}
+.join:hover {
     color: black;
- }
- .msg h2 {
+}
+.msg h2 {
     color: steelblue;
- }
- .msg h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.msg h2 {
     color:steelblue;
- }
- .msg h2 {
-    color:steelblue;
- }
- footer {
-    color:steelblue;
- }
- footer a {
+}
+footer a {
 color:steelblue;
 text-decoration: none;
- }
- footer a:hover {
+}
+footer a:hover {
     color:black;
- }
- #hero-msg h1 {
+}
+#hero-msg h1 {
     text-align: center;
 }   
 #hero-msg h4 {
@@ -61,12 +52,19 @@ text-decoration: none;
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 div #background {
     height: 725px;
 }
 body {
     background-color: white;
     color: steelblue;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: white;
@@ -79,10 +77,21 @@ nav a:hover {
 .book {
     background-color: white;
     color: steelblue;
+    padding: 15px 30px;
+    color: steelblue;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 .join {
     background-color: white;
     color: steelblue;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
     background-color: white;
@@ -99,16 +108,21 @@ nav a:hover {
 .msg {
     background-color: white;
     color: steelblue;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: white;
     color: steelblue;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -120,3 +134,31 @@ footer p a:hover {
     text-decoration: underline;
     color:black;
 }   
+headline {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+} 
+.rivers-card {
+    margin: 200px 0;  
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #02b2b8;
+}
