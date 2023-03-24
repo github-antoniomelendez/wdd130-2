@@ -227,6 +227,39 @@ h2 {
     margin-top: 20px;
     text-align: justify;
 }
+.card-img1 {
+    width: 450px;
+    height: 550px;
+    border: 10px solid #eb0d0d;
+    border-radius: 20px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px white;
+    grid-column: 1/1;
+    margin-top: 50px;
+}
+.card-img2 {
+    width: 450px;
+    height: 550px;
+    border: 10px solid #eb0d0d;
+    border-radius: 20px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px white;
+    margin-top: 50px;
+}
+.msga {
+    background-color: white;
+    width: 700px;
+    height: 1100px;
+    border: 7px solid black;
+    border-radius: 20px;
+    color: #229FEC;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 3/10;
+    box-shadow: 5px 5px 10px white;
+    margin-top: 50px;
+    
+}
 form {
     /* Center the form on the page */
     margin: 0 auto;
